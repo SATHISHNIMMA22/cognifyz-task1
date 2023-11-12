@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .cb-Color{
+        background-color:rgb(224, 35, 35);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1 style="text-align: center;">Simple Event Handling</h1>
+      <button style="margin:300px 700px;border-radius:5px;cursor:pointer; " id="button">Click Me</button>  
+      <script>
+        let Button = document.getElementById("button");
+        Button.onclick=function(){
+            document.body.classList.toggle("cb-Color");
+        }
+      </script>  
+    </div>
+  </body>
+</html>
